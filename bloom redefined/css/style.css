@@ -1,0 +1,673 @@
+*{
+margin: 0;
+padding: 0;
+border: 0;
+box-sizing: border-box;
+}
+
+body  {
+    background-image: ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center;
+    background-size: cover;
+    background-color: #ffffff;
+    backdrop-filter:blur(5px);
+    position: relative;
+  }
+.header{
+    
+    
+    
+}
+
+
+.badge{
+
+height:50px;
+position: sticky;
+}
+.badge a{
+padding: 5em 0em;
+text-align: left;
+}
+a.header-logo{
+        
+    color: rgb(14, 243, 213);
+    
+    font-weight: lighter;
+    font-size: 5em;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Licorice', cursive !important;
+    font-weight: 500;
+    font-size: 3em;
+}
+.badge a h4{
+    font-family: 'Monoton', cursive;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+.badge a h3{
+font-family: 'Licorice', cursive !important;
+font-weight: 500;
+font-size: 0.7em;
+}
+.badge a button{
+    text-align: right;   
+}
+
+
+
+.nav{
+    position: sticky;
+    padding: 0em 0em;
+   
+}
+
+.nav-link{
+
+    font-weight: 90;
+    text-shadow: -1px -1px 25px;
+    font-size: 14px;
+}
+
+a.nav-link{
+    color: rgb(0, 0, 0) !important;
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(0, 0, 0);
+}
+
+p.carosel-text {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(255, 255, 255);
+}
+
+.carousel-inner img{
+ max-height: 80vh;
+padding: 0px,0px;
+}
+
+.py-4 caro{
+padding: 0px,0px;
+}
+.drops.container{
+
+    padding: 3em 0em ;
+    
+    
+    }
+    .cats.container{
+
+        padding: 1em 0em ;
+        
+        overflow: hidden;
+        }
+        .cats.container .row{
+
+            padding: 1em 2em ;
+            height:600px;
+            }
+img.cat.card-img-top{
+                padding: 15px;
+                    }
+.col-2{
+    max-height: 5px;
+
+
+}
+
+.row.featurette{
+    padding-top: 10px;
+    padding-bottom: 5px;
+
+}
+.gymrow{
+    padding-top: 5px;
+    padding-bottom: 100px;
+
+}
+.leftSidebar{
+    background-color: #b2e5f5;
+    border-radius: 8px;
+}
+.topbarRight{
+    background-color: #b2e5f5;
+    border-radius: 8px;
+    padding-top: 15px;
+}
+h1.contactName{
+padding: 5px;
+
+}
+
+.MsgArea{
+    min-height: 200px;
+}
+
+.Dm-area textarea {
+    width: 100%;
+    min-height: 10px;
+    padding: 5px;
+    margin-block: 10px;
+    border-radius: 8px;
+}
+
+.Dm-area{
+    margin-bottom:50px;
+}
+
+
+.Dm-area input{
+    float: right;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.Dm-area input:hover{
+    border: solid 1px #000000;
+}
+
+.rightSidebar{
+    background-color: #cee0dd;
+    border-radius: 8px;
+}
+.chatRow.container{
+    border-radius: 12px;
+}
+a.contactName.nav-link{
+    font-weight: lighter;
+    
+    font-family: 'Varela Round', sans-serif;
+}
+
+h2.featurette-heading{
+    color: rgb(14, 243, 213);
+    font-weight: lighter;
+    
+    text-decoration: none;
+    text-transform: capitalize;
+   
+
+}
+
+.h2-blogpost{
+    color: rgb(12, 53, 238);
+}
+
+
+. card-text{
+color: rgb(1, 0, 2);
+}
+.card-text-description{
+    color: rgb(1, 0, 2);
+    }
+    .card-text-size{
+        color: rgb(1, 0, 2);
+        }
+    .card-text-price{
+        color: rgb(1, 0, 2);
+        }
+.card-img-top {
+    width: 100%;
+   
+}
+
+div.card.card-cover{
+    background-repeat: no-repeat;
+    background-attachment:;
+    background-position:center center;
+    background-size: cover;
+    object-fit: contain;
+
+
+}
+h1.sections-h1{
+    color: rgb(103, 0, 199);
+    text-align: center;
+}
+
+
+h2{
+    color: aliceblue;
+   
+
+}
+
+.container-categories .card{
+   
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+
+}
+.moduleCard{
+   padding-left: 15px;
+    text-align: center;
+}
+
+svg.moduleImg{
+    justify-items: center;   
+}
+
+.col .card shadow-sm .img {
+    
+    
+}
+
+
+.container .container-marketing.row col-lg-4{
+align-items: center;
+}
+
+
+.container{
+    padding-top:10px;
+}
+
+.trending.container{
+
+    padding: 5em 0em ;
+    
+    
+    }
+    .old{
+        text-decoration: line-through;
+    }
+
+
+
+    /* posts table's head  */
+.table-head{
+    display: flex;
+}
+
+.table-head div{
+    padding: 5px;
+    margin: 2px;
+    background-color: #b2e5f5;
+    font-weight: bold;
+}
+
+.table-head .status{
+    flex: 5%;
+}
+
+.table-head .subjects{
+    flex: 70%;
+}
+
+.table-head .replies{
+    flex: 10%;
+}
+
+.table-head .last-reply{
+    flex: 15%;
+}
+
+/* posts table's body  */
+
+.table-row{
+    display: flex;
+}
+
+.table-row .status, .table-row .subjects, .table-row .replies, .table-row .last-reply{
+    padding: 5px;
+    margin: 2px;
+    background-color: #cee0dd;
+}
+
+.table-row .status{
+    flex: 5%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.table-row .subjects{
+    flex: 70%;
+}
+
+.table-row .replies{
+    flex: 10%;
+}
+
+.table-row .last-reply{
+    flex: 15%;
+}
+
+/* navigation path*/
+.navigate{
+    margin-block: 20px;
+    font-weight: lighter;
+    font-size: 24px;
+}
+
+.navigate a{
+    color: #fff;
+}
+
+.navigate a:hover{
+    color:#FF0042;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+Forums.html                       */
+/* ########################################### */
+.container{
+    
+    padding: 20px;
+}
+
+.subforum{
+    margin-top:20px;
+}
+
+.subforum-title{
+    background-color:#b2e5f5;
+    padding: 5px;
+    border-radius: 5px;
+    margin:4px;
+}
+
+.subforum-row{
+    display: grid;
+    grid-template-columns: 7% 60% 13% 20%;
+}
+
+.subforum-column{
+    padding: 10px;
+    margin:4px;
+    border-radius: 5px;
+    background-color:#cee0dd;
+}
+
+.subforum-description *{
+    margin-block: 0;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subforum-icon i{
+    font-size: 45px;
+}
+
+.subforum-devider{
+    display: none;   
+}
+
+/* For the smartphones */
+@media screen and (max-width: 460px) {
+    .container{
+        
+        padding: 10px;
+    }
+
+    .subforum-row{
+        display: grid;
+        grid-template-columns: 25% 75%;
+        grid-template-rows: 65% 35%;
+    }
+
+    .subforum-devider{
+        display: block;
+        border: 0;
+        height: 1px;
+        background-image: linear-gradient(to right, rgba(190, 190, 190, 0), rgba(255, 255, 255, 0.75), rgba(190, 190, 190, 0));
+    }
+
+    
+
+  }
+
+/* For the tablets */
+@media screen and (min-width: 460px) and (max-width: 1024px) {
+    .container{
+        
+        padding: 15px;
+    }
+
+    .subforum-row{
+        display: grid;
+        grid-template-columns: 10% 60% 10% 20%;
+    }
+
+    .subforum-icon i{
+        font-size: 35px;
+    }
+
+    html{
+        font-size: 14px;
+    }
+
+    h1{
+        font-size: 16px;
+    }
+}
+    .navigate{
+        margin-block: 20px;
+        font-weight: lighter;
+        font-size: 24px;
+        text-decoration: none;
+    }
+    
+    .navigate a{
+        color: rgb(23, 79, 143);
+    }
+    
+    .navigate a:hover{
+        color:#FF0042;
+        font-weight: bolder;
+    }
+
+
+
+    /* ########################################### */
+/*            topics.html                      */
+/* ########################################### */
+
+.head{
+    display: flex;
+    background-color: #b2e5f5;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.authors{
+    flex: 20%;
+}
+
+.content{
+    flex: 80%;
+}
+
+.body{
+    display: flex;
+    background-color: #cee0dd;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.body .authors .username{
+    font-size: 20px;
+}
+
+.body .authors img{
+    max-width: 50px;
+    max-height: 80px;
+}
+
+.body .content .comment button{
+    border:none;
+    padding:10px;
+    font-weight: bolder;
+    box-shadow: 4px 6px #fff;
+    cursor: pointer;
+    float: right;
+}
+
+/* comment section */
+.comment-area{
+    margin-bottom:50px;
+}
+
+.comment-area textarea{
+    width: 100%;
+    min-height: 100px;
+    padding: 10px;
+    margin-block: 10px;
+}
+
+.comment-area input{
+    float: right;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.comment-area input:hover{
+    border: solid 1px #000000;
+}
+
+  /* Search Box styles */
+  .search-box{
+    border: solid 1px #c272ec;
+    
+    padding: 5px;
+    display:flex;
+    justify-content: center;
+  
+}
+
+.search-box select{
+    margin: 2px;
+    padding-left:10px;
+}
+
+.search-box input{
+    padding: 10px;
+}
+
+.search-box button{
+    padding: 10px;
+    background-color:#fff;
+    color:#000000;
+}
+
+.search-box button:hover{
+    background-color: #000000;
+    color: rgb(250, 152, 152);
+    box-shadow: 1px 2px 3px #fff;
+}
+
+/* search box for smrtphones */
+@media screen and (max-width: 460px){
+    .search-box input, .search-box button, .search-box select{
+        min-width: 300px;
+        padding-left: 5px;
+    }    
+
+}
+
+/* forum info Styling */
+.forum-info{
+    padding: 20px;
+    background-color: #111314;
+}
+
+
+.chat-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.chat-footer .icons {
+    position: absolute;
+    right: 100px;
+    top: 10px;
+}
+.chat-footer .mic {
+    display: block;
+    width: 55px;
+    height: 55px;
+    margin-right: 20px;
+}
+.btnContainer{
+
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    margin-top: 20px;
+    margin: 10px 0;
+    position: relative;
+  
+  }
+  a.submitBtn{
+    color: #fff;
+    background: #2181db;
+    border-radius: 6px;
+    padding-top: 10px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    margin: 0;
+    width:100%;
+    height: 100%;
+  }
+
+  img.profile-picture{
+    border-radius: 50%;
+  }
+
+  span.dueDateSchedule{
+    font-size:1.5rem ;
+font-family: ;
+color: ;
+  }
+
+  span.Profile-name{
+    font-size:1.5rem ;
+    padding-top: 150px;
+font-family: ;
+color: ;
+}
+
+span.user-name{
+    font-size: 1.5rem;
+font-family: ;
+     
+    color:#2181db;
+}
+
+.container.space{
+    min-height: 500px;
+}
+
+p.card-text-header{
+    color:#2181db;
+
+}
